@@ -1,5 +1,4 @@
 module Web.FrontController where
-
 import IHP.RouterPrelude
 import Web.Controller.Prelude
 import Web.View.Layout (defaultLayout)

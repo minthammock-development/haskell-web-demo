@@ -1,5 +1,4 @@
 module Web.Types where
-
 import IHP.Prelude
 import IHP.ModelSupport
 import Generated.Types

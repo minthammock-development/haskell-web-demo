@@ -1,5 +1,4 @@
 module Web.Controller.Posts where
-
 import Web.Controller.Prelude
 import Web.View.Posts.Index
 import Web.View.Posts.New

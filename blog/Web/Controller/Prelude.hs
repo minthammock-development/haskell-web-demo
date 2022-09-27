@@ -1,5 +1,5 @@
-module Web.Controller.Prelude
-( module Web.Types
+module Web.Controller.Prelude( 
+  module Web.Types
 , module Application.Helper.Controller
 , module IHP.ControllerPrelude
 , module Generated.Types
