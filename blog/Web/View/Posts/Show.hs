@@ -9,7 +9,8 @@ instance View ShowView where
         {breadcrumb}
         <h1>{post.title |> renderMarkdown}</h1>
         <p>{timeAgo(post.createdAt)}</p>
-        <p>{post.body}</p>
+        <p>{post.body |> renderMarkdown}</p>
+        <button><a href={NewCommentAction post.id}>Add Comment</a></button>
 
     |]
         where
